@@ -1,0 +1,62 @@
+.contack {
+    width: 100%;
+    background-size: cover;
+    background-image: url("/img/contack-backround-img.svg");
+    background-repeat: no-repeat;
+}
+
+.contack__box {
+    position: relative;
+    margin-top: 276px;
+
+    &::after {
+        position: absolute;
+        display: inline-block;
+        content: "";
+        width: 613px;
+        height: 481px;
+        background-image: url('/img/contack-backround.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        top: -92px;
+        right: -30px;
+    }
+}
+
+.contack__box-title {
+    padding: 90px 500px 40px 200px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 20px;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.contack__box-form {
+    padding-top: 32px;
+    padding-left: 200px;
+    padding-bottom: 88px;
+}
+
+.contack__box-inp {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+    padding: 18px 147px 12px 22px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+}
+
+.contack__box-btn {
+    margin-left: 21px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #333333;
+    border-radius: 3px;
+    padding: 16px 53px 12px 51px;
+    border: none;
+}

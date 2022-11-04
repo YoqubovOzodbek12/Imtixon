@@ -1,0 +1,122 @@
+.articles__title {
+    width: 450px;
+    margin: auto;
+    margin-top: 216px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.articles__inner {
+    margin: 80px 0 265px 0px;
+}
+
+.articles__list {
+    display: flex;
+}
+
+.articles__item-active {
+    display: flex;
+}
+
+.articles__item {
+    width: 305px;
+    background: #FEFEFE;
+    border: 1px solid #E4E4E2;
+    border-radius: 5px;
+    margin-left: 40px;
+
+    &:nth-child(1) {
+        margin-left: 0px;
+    }
+}
+
+.articles__item-active {
+    border-radius: 5px;
+}
+
+.articles__item-line {
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #949494;
+    text-align: end;
+    margin: 21px 30px 5px 0px;
+}
+
+.articles__item-title {
+    width: 182px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+    color: #000000;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.articles__item-text {
+    width: 244px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+    margin-left: 30px;
+}
+
+
+.articles__right {
+    background: #FEFEFE;
+    border: 1px solid #E4E4E2;
+    border-radius: 5px;
+}
+
+.articles__right-line {
+    display: block;
+    text-align: end;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #949494;
+    margin: 40px 30px 5px 0px;
+}
+
+.articles__right-title {
+    width: 200px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 29px;
+    color: #333333;
+    margin: 29px 111px 0px 31px;
+}
+
+.articles__right-text {
+    width: 270px;
+    color: #949494;
+    margin: 10px 30px 5px 34px;
+}
+
+.articles__item-desc {
+    position: relative;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+    margin: 18px 0px 0px 0px;
+    margin-left: 60px;
+
+    &::before {
+        position: absolute;
+        content: "";
+        display: inline-block;
+        width: 23px;
+        height: 20px;
+        background-repeat: no-repeat;
+        background-image: url("/img/header-list-right.svg");
+        left: -35px;
+        bottom: 3px;
+    }
+}

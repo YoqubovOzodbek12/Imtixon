@@ -1,0 +1,62 @@
+.blockquote__line-top {
+    display: block;
+    width: 140px;
+    height: 4px;
+    background-color: #DBDBDB;
+    margin: 0 auto;
+    margin-top: 143px;
+}
+
+.blockquote__desc {
+    position: relative;
+    width: 753px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 43px;
+    color: #949494;
+
+    &::before {
+        position: absolute;
+        display: block;
+        content: "";
+        width: 142px;
+        height: 128px;
+        background-repeat: no-repeat;
+        background-image: url("/img/blockquote-left.svg");
+        top: -35px;
+        left: -95px;
+    }
+
+    &::after {
+        position: absolute;
+        display: block;
+        content: "";
+        width: 142px;
+        height: 128px;
+        background-repeat: no-repeat;
+        background-image: url("/img/blockquote-right.svg");
+        top: 35px;
+        right: -185px;
+    }
+}
+
+.blockquote__line-bottom {
+    display: block;
+    width: 140px;
+    height: 4px;
+    background-color: #DBDBDB;
+    margin: 0 auto; 
+    margin-top: 35px;
+}
+
+.blockquote__text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #333333;
+    text-align: center;
+    margin-top: 35px;
+}

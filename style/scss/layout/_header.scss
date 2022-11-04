@@ -1,0 +1,249 @@
+// .header {
+//     width: 100%;
+//     position: fixed;
+// }
+
+.header__top {
+    background-color: #F9F8F8;
+    padding: 14px 0px 10px 0px;
+}
+
+.header__top--list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header__top--item {
+    position: relative;
+    margin-right: 128px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.header__address--link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333;
+
+    &:hover {
+        opacity: 0.8;
+    }
+
+    &:active {
+        color: #FFBD54;
+    }
+
+
+}
+
+.header__item--link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333;
+
+    &:hover {
+        opacity: 0.8;
+    }
+
+    &:active {
+        color: #FFBD54;
+    }
+}
+
+.header__item--left::before {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    width: 13px;
+    height: 13px;
+    background-image: url("../../../img/header-left.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 4px;
+    left: -20px;
+}
+
+.header__item--midde::before {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    width: 13px;
+    height: 13px;
+    background-image: url("../../../img/header-middle.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 4px;
+    left: -25px;
+}
+
+.header__item--rigth::before {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    width: 13px;
+    height: 13px;
+    background-image: url("../../../img/header-right.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 4px;
+    left: -25px;
+}
+
+.link__middle::before {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #FFBD54;
+    top: 8px;
+    left: 125px;
+}
+
+.link__rigth::before {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #FFBD54;
+    top: 8px;
+    right: 125px;
+}
+
+.header__item--data {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333;
+    margin-right: 17px;
+
+    &:last-child {
+        margin-right: 0px;
+    }
+
+    &:hover {
+        opacity: 0.8;
+    }
+
+    &:active {
+        color: #FFBD54;
+    }
+}
+
+
+
+.header__item--link {
+    margin-right: 22px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+
+// Header bottom boshlandi
+.bottom {
+    position: relative;
+    background-color: #fff;
+}
+
+.bottom__logo {
+    position: absolute;
+    left: 65px;
+}
+
+.bottom__box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px 0px;
+}
+
+.bottom__item {
+    position: relative;
+}
+
+.bottom__list {
+    display: flex;
+    align-items: center;
+}
+
+.bottom__item--active::before {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-image: url("../../../img/header-list-left.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 2px;
+    right: 67px;
+}
+
+.bottom__item {
+    margin-right: 55px;
+
+    &:last-child {
+        margin-right: 0px;
+    }
+}
+
+.bottom__item--link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+    &:hover {
+        opacity: 0.8;
+       border-bottom: 2px solid yellow;
+    }
+
+    &:active {
+        opacity: 0.6;
+        border-bottom: 2px solid yellow;
+    }
+
+}
+
+.item__countack {
+    color: #333333;
+}
+
+.bottom__right {
+    position: relative;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+    margin-left: 195px;
+
+    &:hover {
+        opacity: 0.8;
+    }
+
+    &:active {
+        opacity: 0.6;
+    }    
+
+    &::before {
+        position: absolute;
+        display: inline-block;
+        content: "";
+        width: 23px;
+        height: 20px;
+        background-image: url("../../../img/header-list-right.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        right: 111px;
+
+    }
+}

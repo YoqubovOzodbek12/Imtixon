@@ -1,0 +1,96 @@
+.reverse {
+    background-color: #333333;
+    position: relative;
+    margin-bottom: 247px;
+}
+
+.severse__addres {
+    position: absolute;
+    left: -98px;
+}
+
+.severse__inner {
+    position: relative;
+    &::after {
+        display: inline-block;
+        content: "";
+        position: absolute;
+        width: 410px;
+        height: 410px;
+        background-repeat: no-repeat;
+        background-image: url("/img/reverse.svg");
+        top: 130px;
+        right: -27px;
+    }
+}
+
+.severse__wrapp {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 62px;
+    margin-top: 62px;
+}
+
+.severse__wrapp-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    color: #FFFFFF;
+    padding-top: 62px;
+    text-align: center;
+    margin: auto;
+}
+
+.severse__wrapp-text {
+    width: 385px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+    margin: auto;
+}
+
+.severse__imp-text {
+    display: block;
+    padding: 16px 238px 13px 22px;
+    background: #FFFFFF;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    align-items: center;
+    color: #949494;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.severse__form {
+    margin-left: 31%;
+}
+
+.severse__imp-email {
+    display: block;
+    padding: 16px 235px 13px 22px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #949494;
+    margin-left: 60px;
+    margin-top: 14px;
+}
+
+.severse__imp-textarea {
+    width: 50%;
+    padding: 20px 225px 0px 30px;
+    margin-left: 60px;
+    margin-top: 14px;
+}
+
+.severse__imp-btn {
+    display: block;
+    border: none;
+    padding: 15px 50px 15px 50px;
+    background: #FFBD54;
+    margin-left: 60px;
+    margin-top: 35px;
+}
